@@ -1,2 +1,2 @@
 # java-ws-basics
-Workspace to learn java
+Workspace to learn java and certify.
