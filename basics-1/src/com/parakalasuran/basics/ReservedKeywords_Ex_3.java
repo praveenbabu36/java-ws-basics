@@ -18,5 +18,5 @@ strictfp class calculatorEx {
     float n1 = 10.23f;
     float n2 = 20.45f;
 
-    
+
 }
