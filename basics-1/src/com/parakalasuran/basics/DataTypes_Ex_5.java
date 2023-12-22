@@ -38,6 +38,30 @@ public class DataTypes_Ex_5 {
         System.out.println(" Long Range : " + minInt + " <-> " + maxInt);
         System.out.println(" Long Range : " + minLong + " <-> " + maxLong);
 
+
+        /*
+
+            Floating point datatype.
+
+                float   -   size : 32 bit
+
+                double  -   size : 64 bit
+
+         */
+
+        float float1 = 25.5123F / 1.23F;
+
+        float float2 = 15.1089f / 0.89f;
+
+        double double1 = 105.31232D / 2.4D;
+
+        double double2 = 923.98032d / 1.89d;
+
+        System.out.println("Float  : " + float1 + " " + float2);
+
+        System.out.println("Double : " + double1 + " " + double2);
+
     }
 
 }
+
