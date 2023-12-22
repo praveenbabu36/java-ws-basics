@@ -1,5 +1,7 @@
 package com.parakalasuran.basics;
 
+import java.io.*;
+
 public class DataTypes_Ex_5 {
 
     public static void main(String[] args) {
@@ -60,6 +62,29 @@ public class DataTypes_Ex_5 {
         System.out.println("Float  : " + float1 + " " + float2);
 
         System.out.println("Double : " + double1 + " " + double2);
+
+
+        /*
+
+            Char & Boolean
+
+
+            boolean : 1 bit
+
+            char    : 32 bit
+
+         */
+
+
+        boolean b1 = true;
+
+        System.out.println("Boolean : " + b1);
+
+
+        char char1 = '\u00FC';
+
+        System.out.println("Character : " + char1);
+
 
     }
 
