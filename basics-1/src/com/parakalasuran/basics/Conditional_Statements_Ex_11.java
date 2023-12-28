@@ -45,7 +45,14 @@ public class Conditional_Statements_Ex_11 {
             System.out.println("x is true");
         }
 
+        System.out.println("value of x:" + x);
 
+        x = false;
+        if( x == true ) {
+            System.out.println("x is true");
+        }else{
+            System.out.println("x is false");
+        }
     }
 
 }
