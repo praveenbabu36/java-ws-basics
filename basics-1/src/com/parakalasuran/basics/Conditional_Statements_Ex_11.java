@@ -38,6 +38,10 @@ public class Conditional_Statements_Ex_11 {
         }
         */
 
+        /*
+            How if handles boolean?
+         */
+        /*
         boolean x = true;
         if( x = false ) {
             System.out.println("x is false");
@@ -53,6 +57,25 @@ public class Conditional_Statements_Ex_11 {
         }else{
             System.out.println("x is false");
         }
+        */
+
+        /*
+            Nested If statement - if...else if
+         */
+        marks = 45;
+
+        if( marks >= 80) {
+            System.out.println("Grade - I");
+        } else if ( marks >= 60) {
+            System.out.println("Grade - II");
+        } else if ( marks > 40 ){
+            System.out.println("Grade - III");
+        } else {
+            System.out.println("Fail");
+        }
+
+
+
     }
 
 }
