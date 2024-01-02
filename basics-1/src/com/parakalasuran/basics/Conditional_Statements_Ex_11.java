@@ -115,6 +115,57 @@ public class Conditional_Statements_Ex_11 {
             n--;
         }
 
+        /*
+            flavors of while loops
+         */
+        int n1 = 2;
+
+        /*
+        while(n1 = 10.05){             // invalid
+            System.out.println();
+        }
+
+        while(n1 = 10){             // invalid
+            System.out.println();
+        }
+        */
+
+
+        /*
+            Optional curly braces
+         */
+        /*
+        while(true) // valid but infinite
+            System.out.println("****");
+
+
+        while(true) // declaration "not" allowed in here
+            int n3 = 100;
+
+
+        while(true) { // declaration allowed in here
+            int n3 = 100;
+        }
+        */
+
+
+        /*
+            unreachable codes
+         */
+        /*
+        while(true) {
+            System.out.println("*****");
+        }
+        System.out.println("------"); // unreachable code
+
+        while(false){
+            System.out.println("*****");    // unreachable
+        }
+        System.out.println("------");   // prints this
+
+        */
+
+
 
     }
 
