@@ -85,14 +85,37 @@ public class Conditional_Statements_Ex_11 {
         /*
             Exercise
          */
+
+
         int age = 56;
 
+        /*
         if( age < 21 )
             System.out.println("Ineligible");
         else if( age > 21 && age < 55 )
             System.out.println("Savings Account");
         else if( age > 55 )
             System.out.println("Senior Citizen Account");
+        */
+
+
+
+        /*
+            While Loop
+
+            while( condition ) {
+                // statements
+             }
+         */
+
+        int n = 5; // counter
+
+        while( n > 0) {
+            System.out.println("*****");
+            n--;
+        }
+
+
     }
 
 }
