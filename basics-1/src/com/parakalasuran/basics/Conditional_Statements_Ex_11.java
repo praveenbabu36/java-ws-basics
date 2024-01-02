@@ -64,12 +64,12 @@ public class Conditional_Statements_Ex_11 {
          */
         marks = 45;
 
+        /*
+
         if( marks >= 80) {
             System.out.println("Grade - I");
 
-            /*
-                Nested If
-             */
+            // Nested If
             if(marks >= 90 )
                 System.out.println("Star Performer");
 
@@ -80,9 +80,19 @@ public class Conditional_Statements_Ex_11 {
         } else {
             System.out.println("Fail");
         }
+        */
 
+        /*
+            Exercise
+         */
+        int age = 56;
 
-
+        if( age < 21 )
+            System.out.println("Ineligible");
+        else if( age > 21 && age < 55 )
+            System.out.println("Savings Account");
+        else if( age > 55 )
+            System.out.println("Senior Citizen Account");
     }
 
 }
