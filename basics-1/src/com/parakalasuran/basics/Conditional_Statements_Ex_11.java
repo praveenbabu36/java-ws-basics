@@ -66,6 +66,13 @@ public class Conditional_Statements_Ex_11 {
 
         if( marks >= 80) {
             System.out.println("Grade - I");
+
+            /*
+                Nested If
+             */
+            if(marks >= 90 )
+                System.out.println("Star Performer");
+
         } else if ( marks >= 60) {
             System.out.println("Grade - II");
         } else if ( marks > 40 ){
