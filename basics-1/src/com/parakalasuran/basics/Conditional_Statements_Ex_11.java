@@ -1,5 +1,7 @@
 package com.parakalasuran.basics;
 
+import java.util.Scanner;
+
 public class Conditional_Statements_Ex_11 {
 
     public static void main(String[] args) {
@@ -168,12 +170,30 @@ public class Conditional_Statements_Ex_11 {
         /*
             Behavior of final variables in while loop
          */
+
+        /*
         //final int a = 10, b = 20; // this throws unreachable code compilation error in while loop.
         int a = 10, b = 20; // but this will not throw unreachable
 
         while( a < b )   // infinite loop
             System.out.println("a is less than b");
         System.out.println("End of check.");
+
+        */
+
+
+        /*
+            Factorial using while loop
+         */
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter number to calculate factorial : ");
+        int num1 = sc.nextInt();
+        int output = 1;
+        while(num1 > 1) {
+            output *= num1;
+            num1 -= 1;
+        }
+        System.out.println("Factorial : " + output);
     }
 
 }
