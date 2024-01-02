@@ -165,8 +165,15 @@ public class Conditional_Statements_Ex_11 {
 
         */
 
+        /*
+            Behavior of final variables in while loop
+         */
+        //final int a = 10, b = 20; // this throws unreachable code compilation error in while loop.
+        int a = 10, b = 20; // but this will not throw unreachable
 
-
+        while( a < b )   // infinite loop
+            System.out.println("a is less than b");
+        System.out.println("End of check.");
     }
 
 }
