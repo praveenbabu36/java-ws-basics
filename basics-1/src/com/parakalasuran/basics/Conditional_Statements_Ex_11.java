@@ -110,12 +110,16 @@ public class Conditional_Statements_Ex_11 {
              }
          */
 
+        /*
+
         int n = 5; // counter
 
         while( n > 0) {
             System.out.println("*****");
             n--;
         }
+
+        */
 
         /*
             flavors of while loops
@@ -185,6 +189,8 @@ public class Conditional_Statements_Ex_11 {
         /*
             Factorial using while loop
          */
+
+        /*
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number to calculate factorial : ");
         int num1 = sc.nextInt();
@@ -194,6 +200,59 @@ public class Conditional_Statements_Ex_11 {
             num1 -= 1;
         }
         System.out.println("Factorial : " + output);
+        */
+
+
+        /*
+            do while
+         */
+
+        int counter = 1;
+
+        do {
+            System.out.println(counter + " Repeat after me...");
+            counter++;
+        }while(counter < 1);
+
+        System.out.println("End of loop.");
+
+
+        /*
+            do while - other flavors
+         */
+        do
+            System.out.println("Hello");
+        while (counter<2);
+        /*
+        //declaration not allowed
+        do
+            int count2 = 200;
+        while (counter<2);
+
+        */
+
+        /*
+            infinite loops & "unreachable" code
+         */
+        /*
+        do {
+            System.out.println("Hello");
+        }while(true);
+        System.out.println("Hi");  // unreachable code coz of infinite loop
+
+        */
+
+
+        /*
+            infinite loop but not "unreachable" code
+         */
+        int a=10, b=20;
+        do{
+            System.out.println("Hello");
+        }while(a<b);
+        System.out.println("Hi"); // compiler doesnt know that this is unreachable
+
+
     }
 
 }
