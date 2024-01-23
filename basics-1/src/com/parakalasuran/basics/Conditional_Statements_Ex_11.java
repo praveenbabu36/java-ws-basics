@@ -326,11 +326,39 @@ public class Conditional_Statements_Ex_11 {
         /*
             do...while | compile time error
          */
+        /*
         do
         while(true);
+        */
 
 
+        /*
+            Coding Challenge
+         */
 
+        String responseChar = "N";
+
+        do {
+
+            Scanner sc = new Scanner(System.in);
+
+            System.out.print("Enter x : ");
+            int x = sc.nextInt();
+
+            System.out.print("Enter y : ");
+            int y = sc.nextInt();
+
+            System.out.println("Sum : " + (x + y) );
+
+            //this is to consume the new line created bcoz of sout
+            sc.nextLine();
+
+            System.out.println("Do you want to continue(Y/N) : ");
+            responseChar = sc.nextLine();
+
+        }while(responseChar.toUpperCase().equals("Y"));
+
+        System.out.println("End of program.");
     }
 
 }
