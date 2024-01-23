@@ -307,9 +307,29 @@ public class Conditional_Statements_Ex_11 {
                    since there is not braces, compiler know there is one line of code and
                    there is no use for it to be a declaration. why declare it if not going to be used?
          */
+        /*
         do
             int x = 200;
         while(true);
+        */
+
+        /*
+            do...while | valid but infinite loop.
+        */
+        /*
+        do{
+            int y = 20;
+        }while(true);
+        */
+
+
+        /*
+            do...while | compile time error
+         */
+        do
+        while(true);
+
+
 
     }
 
