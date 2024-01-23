@@ -246,11 +246,24 @@ public class Conditional_Statements_Ex_11 {
         /*
             infinite loop but not "unreachable" code
          */
+        /*
         int a=10, b=20;
+
         do{
             System.out.println("Hello");
         }while(a<b);
         System.out.println("Hi"); // compiler doesnt know that this is unreachable
+        */
+
+       /*
+         do while with final variables
+        */
+        final int a=10, b=20;
+
+        do{
+            System.out.println("Hello");
+        }while(a<b);
+        System.out.println("Hi"); // compiler know that this is unreachable bcoz of final variable
 
 
     }
