@@ -206,7 +206,7 @@ public class Conditional_Statements_Ex_11 {
         /*
             do while
          */
-
+        /*
         int counter = 1;
 
         do {
@@ -215,14 +215,17 @@ public class Conditional_Statements_Ex_11 {
         }while(counter < 1);
 
         System.out.println("End of loop.");
-
+        */
 
         /*
             do while - other flavors
          */
+        /*
         do
             System.out.println("Hello");
         while (counter<2);
+        */
+
         /*
         //declaration not allowed
         do
@@ -258,12 +261,14 @@ public class Conditional_Statements_Ex_11 {
         /*
          do while with final variables - reachable
         */
+        /*
         final int a=10, b=20;
 
         do{
             System.out.println("Hello");
         }while(a>b);
         System.out.println("Hi"); // compiler know that this is unreachable bcoz of final variable
+        */
 
        /*
          do while with final variables - unreachable
@@ -276,6 +281,32 @@ public class Conditional_Statements_Ex_11 {
         }while(a<b);
         System.out.println("Hi"); // compiler know that this is unreachable bcoz of final variable
         */
+
+        /*
+            do...while - infinite loop
+         */
+        /*
+        do
+            System.out.println("Hello");
+        while(true);
+        */
+
+        /*
+            do...while - valid - infinite loop
+         */
+        /*
+
+        do;
+        while(true);
+
+        */
+
+        /*
+            do...while - compile time error - declaration not allowed here.
+         */
+        do
+            int x = 200;
+        while(true);
 
     }
 
