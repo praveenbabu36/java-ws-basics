@@ -303,6 +303,9 @@ public class Conditional_Statements_Ex_11 {
 
         /*
             do...while - compile time error - declaration not allowed here.
+
+                   since there is not braces, compiler know there is one line of code and
+                   there is no use for it to be a declaration. why declare it if not going to be used?
          */
         do
             int x = 200;
