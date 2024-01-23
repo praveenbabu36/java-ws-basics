@@ -255,16 +255,27 @@ public class Conditional_Statements_Ex_11 {
         System.out.println("Hi"); // compiler doesnt know that this is unreachable
         */
 
-       /*
-         do while with final variables
+        /*
+         do while with final variables - reachable
         */
+        final int a=10, b=20;
+
+        do{
+            System.out.println("Hello");
+        }while(a>b);
+        System.out.println("Hi"); // compiler know that this is unreachable bcoz of final variable
+
+       /*
+         do while with final variables - unreachable
+        */
+        /*
         final int a=10, b=20;
 
         do{
             System.out.println("Hello");
         }while(a<b);
         System.out.println("Hi"); // compiler know that this is unreachable bcoz of final variable
-
+        */
 
     }
 
