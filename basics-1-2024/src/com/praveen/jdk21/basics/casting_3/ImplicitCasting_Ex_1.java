@@ -1,4 +1,4 @@
-package com.praveen.jdk21.basics.casting;
+package com.praveen.jdk21.basics.casting_3;
 
 public class ImplicitCasting_Ex_1 {
 

@@ -1,4 +1,4 @@
-package com.praveen.jdk21.basics.package1;
+package com.praveen.jdk21.basics.package_1;
 
 class JavaProgram1 {
 

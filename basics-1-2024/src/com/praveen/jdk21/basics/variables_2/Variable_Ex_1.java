@@ -1,4 +1,4 @@
-package com.praveen.jdk21.basics.variables;
+package com.praveen.jdk21.basics.variables_2;
 
 public class Variable_Ex_1 {
 
