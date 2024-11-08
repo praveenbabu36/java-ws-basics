@@ -1,6 +1,4 @@
-package com.praveen.jdk21.basics.enums;
-
-import java.util.Arrays;
+package com.praveen.jdk21.basics.enums_9;
 
 public class EnumExample {
 
